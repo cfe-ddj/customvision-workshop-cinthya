@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourceGroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-5408ac51-a431/operations/B03F07792F856B14",
+    "operationId": "B03F07792F856B14",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-15T08:37:20.874899Z",
+      "duration": "PT7.4939366S",
+      "trackingId": "0e8411fc-d21a-402c-81ed-79ef7c74dd6c",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourceGroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Web/staticSites/simplon-swa",
+        "resourceType": "Microsoft.Web/staticSites",
+        "resourceName": "simplon-swa"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourceGroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-5408ac51-a431/operations/08585515950553556552",
+    "operationId": "08585515950553556552",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-15T08:37:21.5999545Z",
+      "duration": "PT8.2189921S",
+      "trackingId": "beebb6ee-410d-4dfe-a9a4-550433ac8c33",
+      "statusCode": "OK"
+    }
+  }
+]

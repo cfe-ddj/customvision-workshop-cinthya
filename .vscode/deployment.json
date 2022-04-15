@@ -1,0 +1,81 @@
+{
+  "id": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourceGroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-5408ac51-a431",
+  "name": "Microsoft.Web-StaticApp-Portal-5408ac51-a431",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourcegroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Web/staticSites/simplon-swa",
+    "marketplaceItemId": "Microsoft.StaticApp"
+  },
+  "properties": {
+    "templateHash": "12334969055123673572",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "simplon-swa"
+      },
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Free"
+      },
+      "skucode": {
+        "type": "String",
+        "value": "Free"
+      },
+      "repositoryUrl": {
+        "type": "String",
+        "value": "https://github.com/cfe-ddj/customvision-workshop-cinthya"
+      },
+      "branch": {
+        "type": "String",
+        "value": "main"
+      },
+      "repositoryToken": {
+        "type": "SecureString"
+      },
+      "appLocation": {
+        "type": "String",
+        "value": "/www"
+      },
+      "apiLocation": {
+        "type": "String",
+        "value": "/api"
+      },
+      "appArtifactLocation": {
+        "type": "String",
+        "value": "/www"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-04-15T08:37:21.8022872Z",
+    "duration": "PT9.9140125S",
+    "correlationId": "85ab1d41-2b13-4af9-9fae-11c70a283700",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "staticSites",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/082d0d73-f197-45c5-9884-581c8f0ce102/resourceGroups/learn-46969acc-dd0c-44ff-8731-333c832b59c5/providers/Microsoft.Web/staticSites/simplon-swa"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
